@@ -1,0 +1,42 @@
+@use "base";
+
+.section {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dark {
+    color: base.$light;
+    background-color: base.$dark;
+}
+
+.introduction__heading, .heading, .heading__h3, .project__heading {
+    margin-bottom: 0.5rem;
+    
+}
+
+.introduction__image {
+    width: 50%;
+}
+
+.project {
+    background-color: base.$light;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.project__image{
+    width: 50%;
+}
+
+.project__link {
+    display: inline-block;
+    text-decoration: none;
+    color: base.$complimentary-bright;
+    padding: 0.2rem 0.8rem;
+    border: 2px solid base.$complimentary-bright;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}

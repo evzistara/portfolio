@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evzi Stara Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="menu__toggler">☰</label>
+        <div class="menu__list">
+            <a class="menu__item" href="">Projects</a>
+            <a class="menu__item" href="">Experience</a>
+            <a class="menu__item" href="">Contact</a>
+        </div>
+        </nav>
+    </header>
+
+    {{ content | safe }}
+    
+    <footer class="footer"></footer>
+</body>
+</html>
