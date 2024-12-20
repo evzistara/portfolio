@@ -1,6 +1,7 @@
 
 @use "section";
 @use "base";
+@use "responsive";
 
 html {
     box-sizing: border-box;
@@ -18,7 +19,7 @@ html {
 body{
     margin:0;
     padding: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-family: sans-serif;
     line-height: 1.5;
 }
@@ -37,6 +38,7 @@ body{
 .menu__toggler{
     cursor: pointer;
     color: white;
+   
 }
 
 .menu__list{
@@ -58,4 +60,13 @@ body{
 
 .menu__checkbox:checked ~ .menu__list {
     display: block;
+}
+
+hr{
+    margin: 1.5rem;
+}
+
+footer a {
+    color: white;
+    margin:0 1rem;
 }
