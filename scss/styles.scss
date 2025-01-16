@@ -5,6 +5,8 @@
 
 html {
     box-sizing: border-box;
+    font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -19,11 +21,18 @@ html {
 body{
     margin:0;
     padding: 0;
-    font-size: 20px;
     font-family: sans-serif;
     line-height: 1.5;
+    background-color: base.$light;
 }
 
+//MENU
+.header{
+    position: sticky;
+    top:0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
 
 .menu__checkbox {
     position: absolute;
@@ -34,10 +43,12 @@ body{
     text-align: right;
     padding: 10px;
     background-color: base.$dark;
+    
 }
 .menu__toggler{
     cursor: pointer;
     color: white;
+    padding-right: 1rem;
    
 }
 
@@ -55,18 +66,10 @@ body{
 }
 
 .menu__item:hover {
-    background-color: base.$complimentary-light;
+    background-color: base.$light;
 }
 
 .menu__checkbox:checked ~ .menu__list {
     display: block;
 }
 
-hr{
-    margin: 1.5rem;
-}
-
-footer a {
-    color: white;
-    margin:0 1rem;
-}
