@@ -1,10 +1,74 @@
-@media screen and (min-width: 481px){
-    }
+@use "base";
+@use "section";
+
 
 @media screen and (min-width: 769px){
+    
+    .menu__toggler {
+        display: none; 
+    }
+    .menu__list{
+        display: flex;
+        justify-content: space-around;
+      
+    }
+    .menu__item {
+        color: base.$light;
+        background-color: base.$dark;
+    }
+    .menu__item:hover {
+        color: base.$dark;
+        background-color: base.$light;
+    }
 
+    .section{
+        padding: 5rem 4rem;
+    }
+.introduction__image{
+    width: 50%;
+    margin:0 2rem;
+}
+    .flexbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about-me__image{
+        width: 60%;
+    }
 }
 
-@media screen and (min-widht: 1280px){
-    
+
+@media screen and (min-width: 1280px){
+    body{
+        background-color: pink;
+    }
+    .menu__list{
+        width: 80%;
+        margin: 0 auto;
+    }
+ .section, .footer{
+    width: 80%;
+    margin: 0 auto;
+ }
+.flexbox-big{
+    display: flex;
+    gap: 2rem;
+}
+  .introduction__image{
+    width: 30%;
+  }
+
+ .about-me__image{
+    width: 40%;
+   object-fit: contain;
+ }
+
+ .experience__card{
+    flex-basis: 33%;
+
+ }
+  
 }

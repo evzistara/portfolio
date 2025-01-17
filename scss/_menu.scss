@@ -1,0 +1,48 @@
+@use "base";
+//MENU
+.header{
+    position: sticky;
+    top:0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.menu__checkbox {
+    position: absolute;
+    left: -9999px;
+}
+
+.menu {
+text-align: right;
+    padding: 10px;
+    background-color: base.$dark;
+    
+}
+.menu__toggler{
+    cursor: pointer;
+    color: white;
+    padding-right: 1rem;
+   
+}
+
+.menu__list{
+  display: none;
+  text-align: center;
+}
+
+.menu__item {
+    display: block;
+    text-decoration: none;
+    color: base.$dark;
+    background-color: base.$light;
+    margin: 2px;
+    padding: 10px;
+}
+
+.menu__item:hover {
+    background-color: base.$light;
+}
+
+.menu__checkbox:checked ~ .menu__list {
+    display: block;
+}
