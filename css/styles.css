@@ -265,4 +265,7 @@ body {
   .experience__card {
     flex-basis: 33%;
   }
+  .project {
+    max-width: 600px;
+  }
 }/*# sourceMappingURL=styles.css.map */
