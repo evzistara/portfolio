@@ -4,13 +4,21 @@
   "description": "Webpage with my portofilo.",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"  
+    "build": "npx @11ty/elenvety",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evzistara/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evzistara/portfolio/issues"
+  },
+  "homepage": "https://github.com/evzistara/portfolio#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^3.0.0"
   }
 }

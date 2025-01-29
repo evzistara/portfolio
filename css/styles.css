@@ -180,6 +180,8 @@ body {
   position: absolute;
   left: 1rem;
   bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
 }
 
 .project__heading, .project__description {
@@ -268,4 +270,4 @@ body {
   .project {
     max-width: 600px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
