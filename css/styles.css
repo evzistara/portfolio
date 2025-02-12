@@ -25,6 +25,12 @@ body {
   position: sticky;
   top: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #4C0013;
+}
+
+.header__logo {
+  width: 50px;
+  margin: 0.2rem 0.5rem;
 }
 
 .menu__checkbox {
@@ -35,7 +41,6 @@ body {
 .menu {
   text-align: right;
   padding: 10px;
-  background-color: #4C0013;
 }
 
 .menu__toggler {
@@ -188,7 +193,7 @@ body {
   color: #FAF9F6;
 }
 
-.section ul {
+.list {
   list-style-type: none;
 }
 
@@ -270,4 +275,47 @@ body {
   .project {
     max-width: 600px;
   }
+}
+button {
+  background-color: #4C0013;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2rem auto;
+  display: block;
+}
+
+button a {
+  color: #FAF9F6;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.service__name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.service__description {
+  border: 1px solid #FAF9F6;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.why-me__short li {
+  margin-left: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.why-me__long p {
+  margin: 0.5rem 0;
 }

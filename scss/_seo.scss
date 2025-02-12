@@ -1,0 +1,45 @@
+@use "base";
+@use "section";
+
+button{
+    background-color: base.$dark;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2rem auto;
+    display: block; 
+}
+
+button a {
+    color: base.$light;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.service__name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.service__description{
+    border: 1px solid base.$light;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem
+}
+
+.why-me__short li{
+margin-left: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.why-me__long p{
+    margin: 0.5rem 0;
+}

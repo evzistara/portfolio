@@ -4,18 +4,22 @@
     position: sticky;
     top:0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: base.$dark;
+ 
 
 }
-
+.header__logo{
+    width: 50px;
+    margin: 0.2rem 0.5rem;
+}
 .menu__checkbox {
     position: absolute;
     left: -9999px;
 }
 
 .menu {
-text-align: right;
+    text-align: right;
     padding: 10px;
-    background-color: base.$dark;
     
 }
 .menu__toggler{
