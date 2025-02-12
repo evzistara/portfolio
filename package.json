@@ -4,7 +4,7 @@
   "description": "Webpage with my portofilo.",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/elenvety",
+    "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },
   "repository": {
