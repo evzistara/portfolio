@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evzi Stara Portofølje</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="menu">
+            <input type="checkbox" class="menu__checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class="menu__toggler">☰</label>
+            <div class="menu__list">
+                <a class="menu__item" href="/index.html">Hjem</a>
+                <a class="menu__item" href="/index.html#intro">Om meg</a>
+                <a class="menu__item" href="/index.html#experience">Erfaring</a>
+                <a class="menu__item" href="/index.html#skills">Ferdigheter</a>
+                <a class="menu__item" href="/index.html#projects">Prosjekter</a>
+                <a class="menu__item" href="/seo-tjenester">SEO tjenester</a>
+                <a class="menu__item" href="/index.html#contact">Kontakt</a>
+                <a class="menu__item" href="/en/index.html">EN version</a>
+            </div>
+        </nav>
+    </header>
+
+    {{ content | safe }}
+    <script src="https://kit.fontawesome.com/a1cfd1fd84.js" crossorigin="anonymous"></script>
+    
+    <footer class="footer dark-color" id="contact">
+        <div class="footer__flexbox">
+        <p class="smaller-font" >@ 2025 Evzi Stara</p>
+        
+ <div class="footer__socials">
+<a href="https://github.com/evzistara"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com/in/evzenie-jitka-stara/"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+    </div>
+    </footer>
+</body>
+</html>
