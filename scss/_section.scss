@@ -37,10 +37,9 @@
 
 // INTRODUCTION
 .introduction__image {
-width: 80%;
+    width: 80%;
     border-radius: 50%;
     margin: 0 auto;
-    display: block;
 }
 
 .introduction__socials{
@@ -59,15 +58,13 @@ width: 80%;
 
   //ABOUT ME
 .about-me__image{
-    width: 100%;
-    display: block;
     margin: 1rem auto;
 }
 
 //EXPERIENCE
 
 .experience__image{
-   width: 100px;
+    width: 100px;
   height: fit-content;
    
 }
@@ -105,8 +102,6 @@ margin: 1rem 0;
 }
 
 .project__image{
-    width: 100%;
-    display: block;
     object-fit: cover;
     border-radius: 0.5rem;
 }
@@ -129,7 +124,7 @@ margin: 1rem 0;
 }
 
 //FOOTER 
-.footer >.fa-brand{
+.footer >.fa-brands{
     color: base.$light;
 
 }

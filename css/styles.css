@@ -1,6 +1,9 @@
+:root {
+  line-height: 1.5;
+}
+
 html {
   box-sizing: border-box;
-  font-size: 20px;
   scroll-behavior: smooth;
 }
 
@@ -13,11 +16,29 @@ html {
   margin: 0;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
-  line-height: 1.5;
   background-color: #FAF9F6;
 }
 
@@ -110,7 +131,6 @@ body {
   width: 80%;
   border-radius: 50%;
   margin: 0 auto;
-  display: block;
 }
 
 .introduction__socials {
@@ -128,8 +148,6 @@ body {
 }
 
 .about-me__image {
-  width: 100%;
-  display: block;
   margin: 1rem auto;
 }
 
@@ -174,8 +192,6 @@ body {
 }
 
 .project__image {
-  width: 100%;
-  display: block;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
@@ -197,7 +213,7 @@ body {
   list-style-type: none;
 }
 
-.footer > .fa-brand {
+.footer > .fa-brands {
   color: #FAF9F6;
 }
 
@@ -247,7 +263,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   body {
-    background-color: pink;
+    background-color: #d58936;
   }
   .menu__list {
     width: 80%;
